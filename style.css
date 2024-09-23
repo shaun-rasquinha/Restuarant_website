@@ -119,33 +119,46 @@ html {
 
 /* About Section */
 .about-section {
-  background: #f4f4f4;
+  background: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("images/about\ us.jpg");
+  background-size: cover;
   padding: 2em 0;
+  height: 50vh;
+  color: white;
 }
 
 .about-section h2 {
   text-align: center;
-  margin-bottom: 1em;
+
+  font-size: 50px;
 }
 
 .about-section p {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
+  font-size: 30px;
 }
 
 /* Contact Section */
 .contact-section {
   padding: 2em 0;
+  background: url("images/contact.jpg") center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  color: white;
 }
 
 .contact-section h2 {
   text-align: center;
   margin-bottom: 1em;
+  font-size: 50px;
 }
 
 .contact-section p {
-  text-align: center;
+  text-align: left;
+  font-size: 20px;
 }
 
 /* Footer */
