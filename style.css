@@ -81,17 +81,19 @@ html {
 /* Menu Section */
 .menu-section {
   padding: 2em 0;
+  background-color: black;
+  color: white;
+  height: 50vh;
 }
 
-.menu-section h2 {
+.menu-section h1,
+.menu-section h4 {
   text-align: center;
   margin-bottom: 1em;
 }
 
-.menu-section .menu-items {
+.menu-items {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
 }
 
 .menu-section .menu-item {
